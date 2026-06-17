@@ -1,0 +1,33 @@
+# ---- Python (backend) ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ---- Node (frontend) ----
+node_modules/
+dist/
+*.tsbuildinfo
+
+# ---- Secrets / local env (keep the .example files) ----
+.env
+.env.local
+.env.*.local
+
+# ---- Databases / caches / generated ----
+*.db
+*.sqlite
+*.sqlite3
+.tts-cache/
+
+# ---- Test / tooling artifacts ----
+.playwright-mcp/
+*.log
+
+# ---- Editor / OS ----
+.DS_Store
+.idea/
+.vscode/
